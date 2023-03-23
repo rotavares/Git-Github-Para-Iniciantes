@@ -22,7 +22,7 @@
 - $ git log --graph  mostra em forma gráfica o que está acontecendo com as branchs e as versões.
 - $ git show " hash "  visualizar commit por hash.
 
-#### 4. Visualizar as mudanças antes de enviar:
+#### 4. Visualizar as mudanças que estão no stage:
 - $ git status  exibir aquivos que foram modificados.
 
 #### 5. Visualizar os detalhes das modificações feitas:
@@ -33,3 +33,5 @@
 - $ git commit -am " mensagem "  adiciona todos os arquivos modificados na área de stage e, em seguida, faz o commit dos mesmos.
 - $ git commit -m " mensagem" faz commit apenas dos arquivos modificados e que encontram-se adicionados na área de stage
 
+#### 7. Desfazendo coisas com reset:
+- $ git reset 

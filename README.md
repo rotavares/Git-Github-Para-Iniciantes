@@ -25,10 +25,11 @@
 #### 4. Visualizar as mudanças antes de enviar:
 - $ git status  exibir aquivos que foram modificados.
 
-#### 5. Visualizar as modificações feitas:
+#### 5. Visualizar os detalhes das modificações feitas:
 - $ git diff  exibir modificações.
 - $ git diff --name-only  exibir apenas nome do arquivo modificado.
 
-#### 6. Para commitar um arquivo que já existiu:
-- $ git commit -am " mensagem "  salvar arquivos para transferir ao repositório.
+#### 6. Para commitar um arquivo:
+- $ git commit -am " mensagem "  adiciona todos os arquivos modificados na área de stage e, em seguida, faz o commit dos mesmos.
+- $ git commit -m " mensagem" faz commit apenas dos arquivos modificados e que encontram-se adicionados na área de stage
 

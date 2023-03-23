@@ -1,10 +1,10 @@
 # git-github
 
-Git and GitHub for beginners.
+## Git and GitHub for beginners.
 
-Controle de versão é um sistema com a finalidade de gerenciar diferentes versões de um documento.
+### Controle de versão é um sistema com a finalidade de gerenciar diferentes versões de um documento.
 
-Configurações básicas:
+#### Configurações básicas:
 $ git config --global user.name " nome "  setar o nome
 $ git config --global user.email " e-mail"  setar e-mail
 $ git config --global core.editor " editor " setar editor de texto

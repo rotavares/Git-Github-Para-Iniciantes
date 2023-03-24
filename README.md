@@ -25,13 +25,15 @@
 #### 4. Visualizar as mudanças que estão no stage:
 - $ git status  exibir aquivos que foram modificados.
 
-#### 5. Visualizar os detalhes das modificações feitas:
-- $ git diff  exibir modificações.
+#### 5. Visualizar os detalhes das modificações que não estão no stage:
+- $ git diff  exibir modificações feitas no arquivo.
 - $ git diff --name-only  exibir apenas nome do arquivo modificado.
 
 #### 6. Para commitar um arquivo:
-- $ git commit -am " mensagem "  adiciona todos os arquivos modificados na área de stage e, em seguida, faz o commit dos mesmos.
+- $ git commit -am " mensagem "  adiciona todos os arquivos modificados para área de stage e, em seguida, faz o commit dos mesmos.
 - $ git commit -m " mensagem" faz commit apenas dos arquivos modificados e que encontram-se adicionados na área de stage
 
-#### 7. Desfazendo coisas com reset:
-- $ git reset 
+#### 7. Desfazendo coisas com o reset:
+- $ git checkout retorna o arquivo da unstage para antes da edição
+- $ git reset HEAD retorna o arquivo da stage para unstage
+- $ git reset --soft 

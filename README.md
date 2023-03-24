@@ -36,4 +36,6 @@
 #### 7. Desfazendo coisas com o reset:
 - $ git checkout retorna o arquivo da unstage para antes da edição
 - $ git reset HEAD retorna o arquivo da stage para unstage
-- $ git reset --soft 
+- $ git reset --soft " hash " retorna o arquivo que estava pronto para commitar para stage
+- $ git reset --mixed " hash " retorna o arquivo que estava pronto para commitar para unstage
+- $ git reset --hard " hash " ignora todo o commit e modificações feita no arquivo

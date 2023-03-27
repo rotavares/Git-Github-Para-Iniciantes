@@ -83,3 +83,6 @@
 
 #### 15. Salvando sua sexta com git revert:
 - $ git revert "hash" usado para reverter um commit sem excluir do histórico
+
+#### 16. Apagando tags e branches remotos:
+- $ git push origin :"nome_tag"/"nome_branch"

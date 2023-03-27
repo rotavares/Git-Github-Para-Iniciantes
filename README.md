@@ -71,3 +71,7 @@
 #### 12. Movendo entre branches e deletando:
 - $ git checkout "nome_branch" mudar de branch
 - $ git branch -D "nome_branch" deletar branch
+
+#### 13. Merge e Rebase:
+- $ git merge "nome_branch" uni os arquivos de branch diferente sem mudar a ordem cronológica
+- $ git rebase "nome_branch" uni os arquivos de branch diferente e muda ordem cronológica

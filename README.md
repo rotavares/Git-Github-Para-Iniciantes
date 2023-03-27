@@ -39,3 +39,35 @@
 - $ git reset --soft " hash " retorna o arquivo que estava pronto para commitar para stage
 - $ git reset --mixed " hash " retorna o arquivo que estava pronto para commitar para unstage
 - $ git reset --hard " hash " ignora todo o commit e modificações feita no arquivo
+
+#### 8. Ligando repositório local com remoto:
+- $ git remote add origin " SSH:Endereço no GitHub " adicionar repositório remoto
+- $ git remote mostra repositórios
+- $ git remote -v mostra o endereço dos repositórios
+- $ git push -u origin main/master envia os arquivos e logs para o repositório remoto
+
+#### 9. Criando chave SSH:
+- $ ssh-keygen -t -rsa -b 4096 -C "seu_email_github@exemplo.com" cria uma chave SSH
+
+#### 10. Enviando mudanças para o remoto:
+- $ git push origin main/master envia os arquivos para o repositório remoto
+
+#### 11. Clonando um repositório:
+- $ git clone ssh/url "nome-exemplo-clone" para clonar um repositório remoto
+
+### O que é um branch?
+- É um ponteiro móvel que leva a um commit.
+### Por que usar?
+#### Vantagens:
+- Pode modificar sem alterar o local principal (master)
+- Facilmente "desligável
+- Múltiplas pessoas trabalhando
+- Evita conflitos
+
+#### 11. Criando um branch:
+- $ git checkout -b "nome_branch"
+- $ git branch mostra branch existentes
+
+#### 12. Movendo entre branches e deletando:
+- $ git checkout "nome_branch" mudar de branch
+- $ git branch -D "nome_branch" deletar branch

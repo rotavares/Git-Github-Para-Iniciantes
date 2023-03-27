@@ -80,3 +80,6 @@
 - $ git stash arquiva alterações
 - $ git stash list mosra os arquivos arquivados que eu estou fazendo
 - $ git stash clear limpa tudo que está como stash
+
+#### 15. Salvando sua sexta com git revert:
+- $ git revert "hash" usado para reverter um commit sem excluir do histórico

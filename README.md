@@ -75,3 +75,8 @@
 #### 13. Merge e Rebase:
 - $ git merge "nome_branch" uni os arquivos de branch diferente sem mudar a ordem cronológica
 - $ git rebase "nome_branch" uni os arquivos de branch diferente e muda ordem cronológica
+
+#### 14. Arquivando alterações com git stash
+- $ git stash arquiva alterações
+- $ git stash list mosra os arquivos arquivados que eu estou fazendo
+- $ git stash clear limpa tudo que está como stash

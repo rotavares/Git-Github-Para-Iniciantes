@@ -1,6 +1,6 @@
 # Git and GitHub for beginners.
 
-Curso de Git e GitHub para iniciantes criado por Willian Justen, anotações sobre o curso:
+Mini-curso de Git e GitHub para iniciantes criado por Willian Justen, anotações sobre o que foi passado:
 
 ### Controle de versão é um sistema com a finalidade de gerenciar diferentes versões de um documento.
 
